@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" *ngIf="!isShowMainHead">
+    <h1 class="text-sucess bg-white p-2">E-Sales Portal</h1>
+    <ul class="navbar-nav m-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['']" routerLinkActive="active">Add Category</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/login']" routerLinkActive="active">Add product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/register']" routerLinkActive="active">Logout</a>
+      </li>
+    </ul>
+  </nav>
+
